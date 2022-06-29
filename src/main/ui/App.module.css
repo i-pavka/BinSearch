@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eeeeee;
+    max-width: 500px;
+    width: 95%;
+    margin: 20px auto;
+    gap: 30px;
+    color: #3a4750;
+    border: 1px solid #d8ccda;
+    border-radius: 16px;
+    padding: 10px;
+    transition: height 500ms ease;
+    overflow: hidden;
+}
+
+.triesBlock {
+    text-align: center;
+    margin-top: 25px;
+    height: 40px;
+}
+.triesBlock h3 {
+    margin-bottom: 10px;
+}
+
+.textBlock {
+    text-align: center;
+}
